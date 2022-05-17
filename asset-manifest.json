@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/ppireact2/static/css/main.26e4f18e.css",
-    "main.js": "/ppireact2/static/js/main.2d2ddb19.js",
+    "main.js": "/ppireact2/static/js/main.ec01b4eb.js",
     "static/js/787.ff22ffef.chunk.js": "/ppireact2/static/js/787.ff22ffef.chunk.js",
     "static/media/QLJoy.jpg": "/ppireact2/static/media/QLJoy.19815330a26dbe9a55d8.jpg",
     "static/media/1593741696_36-p-temnie-foni-s-kosmosom-48.jpg": "/ppireact2/static/media/1593741696_36-p-temnie-foni-s-kosmosom-48.86b94b9a26e89613acb3.jpg",
     "static/media/VAyR.gif": "/ppireact2/static/media/VAyR.b2a8fa3d8baba9fc720f.gif",
     "index.html": "/ppireact2/index.html",
     "main.26e4f18e.css.map": "/ppireact2/static/css/main.26e4f18e.css.map",
-    "main.2d2ddb19.js.map": "/ppireact2/static/js/main.2d2ddb19.js.map",
+    "main.ec01b4eb.js.map": "/ppireact2/static/js/main.ec01b4eb.js.map",
     "787.ff22ffef.chunk.js.map": "/ppireact2/static/js/787.ff22ffef.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.26e4f18e.css",
-    "static/js/main.2d2ddb19.js"
+    "static/js/main.ec01b4eb.js"
   ]
 }
