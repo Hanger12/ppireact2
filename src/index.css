@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -6,8 +9,447 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.bodyDark {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0b0b0d;
+}
+.app{
+  text-align: center;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+.header{
+  border-bottom: 1px solid #E2E8F0;
+  background-image: url('QLJoy.jpg');
+}
+.headerDark{
+  border-bottom: 1px solid #E2E8F0;
+  background-image: url('1593741696_36-p-temnie-foni-s-kosmosom-48.jpg');
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+}
+.hamburger {
+  display: none;
+}
+.text{
+  color: black;
+}
+.textDark{
+  color: white;
+}
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #101010;
+}
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  margin-left: 5rem;
+}
+
+.nav-link{
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #475569;
+}
+
+.nav-link:hover{
+  color: #482ff7;
+}
+
+.nav-logo {
+  font-size: 2.1rem;
+  font-weight: 500;
+  color: #482ff7;
+
+}
+@media only screen and (max-width: 768px) {
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 5rem;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .nav-item {
+    margin: 2.5rem 0;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+}
+.newsDiv{
+  text-align: center;
+  background-color: aquamarine;
+  margin:auto;
+  width:50%;
+  border-color:black;
+  border-radius:10px;
+  padding:5px;
+}
+.newsDivDark{
+  text-align: center;
+  background-color: #363342;
+  margin:auto;
+  width:50%;
+  border-color:black;
+  border-radius:10px;
+  padding:5px;
+}
+.about{
+  text-align: center;
+  margin:5% auto;
+  width: 50%;
+  height: 50%;
+  background-color: aqua;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-style: inset;
+  border-width: medium;
+  border-color: black;
+}
+.aboutDark{
+  text-align: center;
+  margin:5% auto;
+  width: 50%;
+  height: 50%;
+  background-color: #363342;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-style: inset;
+  border-width: medium;
+  border-color: black;
+  color:white;
+}
+.pageList{
+  text-align: center;
+
+}
+.ImageNews{
+  width: 60%;
+}
+.ImageNewsS{
+  width: 80%;
+}
+.newsTitle {
+  margin:auto;
+  color: black;
+  width: 70%;
+  text-decoration: none;
+  font-size: 30px;
+  border-color: black;
+  border-radius: 10px;
+  border-style: inset;
+  border-width: medium;
+}
+.newsTitleDark {
+  margin:auto;
+  color: #e3d1d1;
+  width: 70%;
+  text-decoration: none;
+  font-size: 30px;
+  border-color: #9e8287;
+  border-radius: 10px;
+  border-style: inset;
+  border-width: medium;
+}
+.newTitleLinkDark{
+  color: #e3d1d1;
+  font-size: 30px;
+  text-decoration: none;
+}
+.newTitleLink {
+  color: black;
+  font-size: 30px;
+  text-decoration: none;
+}
+.newTitleLink:hover{
+  color: red;
+}
+.newTitleLinkDark:hover{
+  color: red;
+}
+.ColorPublish{
+  color: red;
+}
+.ColorPublishDark{
+  color: darkgray;
+}
+.nav-logo:hover{
+  color: aqua;
+}
+.nav-item1{
+  color:blue;
+}
+.nav-item1:hover{
+  color: aqua;
+}
+.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.exampleDark input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #a6a1a1;
+}
+
+/* Style the submit button */
+.exampleDark button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #785c5c;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+.exampleDark button:hover {
+  background: #382727;
+}
+
+/* Clear floats */
+.exampleDark::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.buttonSort{
+  background-color: #4CAF50; /* Green */
+  border-color:black;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.buttonSort:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.buttonSortDark{
+  background-color: #213327; /* Green */
+  border-color:#0c1a10;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.buttonSortDark:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.pageBarBtn {
+  background-color: white;
+  margin-right: 5px;
+  margin-top: 5px;
+  font-size: 14px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: auto;
+}
+
+.pageBarBtn:hover {
+  border-color: black;
+  background-color: red;
+}
+
+.pageBarBtnDark {
+  background-color: #a6a1a1;
+  margin-right: 5px;
+  margin-top: 5px;
+  font-size: 14px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: auto;
+}
+
+.pageBarBtnDark:hover {
+  border-color: black;
+  background-color: #420d17;
+}
+.buttonBookmarked{
+  background-color: white;
+  color: black;
+  border: 2px solid red;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.buttonBookmarkedDelete{
+  background-color: #4CAF50; /* Green */
+  color: white;
+  border-color:#4CAF50;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.buttonBookmarkedDelete:hover{
+  background-color: white;
+  color: black;
+  border: 2px solid red;
+}
+.buttonBookmarked:hover{
+  background-color: #4CAF50; /* Green */
+  color: white;
+  border-color:#4CAF50;
+}
+.buttonBookmarkedDark{
+  background-color: #a6a1a1;
+  color: white;
+  border: 2px solid #420d17;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.buttonBookmarkedDeleteDark{
+  background-color: #382727; /* Green */
+  color: white;
+  border-color:#382727;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.buttonBookmarkedDeleteDark:hover{
+  background-color: #a6a1a1;
+  color: white;
+  border: 2px solid #420d17;
+}
+.buttonBookmarkedDark:hover{
+  background-color:#382727; /* Green */
+  color: white;
+  border-color:#382727;
+}
+.postUrl{
+  border-color: black;
+}
+.postUrlDark{
+  border-color: black;
+  color: white;
+}
+.postSummary{
+  font-size: 30px;
+}
+.postSummaryDark{
+  font-size: 30px;
+  color: white;
+}
+.sameNewsLbl{
+  font-size: 30px;
+  text-align: center;
+  margin:auto;
 }
