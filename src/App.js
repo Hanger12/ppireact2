@@ -66,7 +66,7 @@ function App() {
               <Routes>
                   <Route path="/" element={<Navigate to="/news" replace />}/>
                   <Route path="/news" element={<News/>}/>
-                  <Route path="/pagenotfound" element={<pagenotfound/>}/>
+                  <Route path="*" element={<pagenotfound/>}/>
                   <Route path="/about" element={<About/>}/>
                   <Route path="/news/:id" element={<New/>}/>
                   <Route path="/bookmarks" element={<Bookmarks/>}/>
