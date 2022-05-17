@@ -1,5 +1,5 @@
 import {Link} from "react-router-dom";
-function pagenotfound(){
+function PageNotFound(){
     return (
         <div className={document.getElementById('react-switch-new').checked===false?"text":"textDark"}>
             <h1>404-Page not Found</h1>
@@ -7,4 +7,4 @@ function pagenotfound(){
         </div>
     )
 }
-export default pagenotfound;
+export default PageNotFound;

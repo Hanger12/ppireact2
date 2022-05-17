@@ -4,7 +4,7 @@ import About from './page/about'
 import News from './page/news'
 import New from './page/new'
 import Bookmarks from './page/Bookmark'
-import pagenotfound from './page/pageNoFound'
+import PageNotFound from './page/pageNoFound'
 import {HashRouter, Link, Route, Routes,Navigate} from "react-router-dom";
 import React,{ useState }from "react";
 function App() {
@@ -64,7 +64,7 @@ function App() {
           </header>
           <div>
               <Routes>
-                  <Route path="*" element={<pagenotfound/>}/>
+                  <Route path="/*" element={<PageNotFound/>}/>
                   <Route path="/" element={<Navigate to="/news" replace />}/>
                   <Route path="/news" element={<News/>}/>
                   <Route path="/about" element={<About/>}/>
