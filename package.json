@@ -2,7 +2,7 @@
   "name": "ppireact",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://hanger12.github.io/ppireact2",
+  "homepage": "https://hanger12.github.io/ppireact2/",
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "@fortawesome/react-fontawesome": "^0.1.18",
